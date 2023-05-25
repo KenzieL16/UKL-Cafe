@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "419551670161",
+    "project_id": "kasir-cafe-c0f45",
+    "storage_bucket": "kasir-cafe-c0f45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419551670161:android:9909f360ae925685b0b430",
+        "android_client_info": {
+          "package_name": "com.kenzie.kasircafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419551670161-05vjqodc22gj2qnnb1mjb7933ukoa8uj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr7nlL-mXbJBZtM3Ut3N0YSWp1xrgmhDA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419551670161-05vjqodc22gj2qnnb1mjb7933ukoa8uj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
