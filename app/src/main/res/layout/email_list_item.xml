@@ -24,7 +24,6 @@
                 android:layout_height="wrap_content"
                 android:text="Email"
                 android:layout_gravity="center"
-                android:textColor="@color/black"
                 android:textSize="20sp"
                 android:textStyle="bold"/>
         </LinearLayout>

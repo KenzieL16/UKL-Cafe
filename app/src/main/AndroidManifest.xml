@@ -15,19 +15,48 @@
         android:theme="@style/Theme.KasirCafe"
         tools:targetApi="31">
         <activity
-            android:name=".DetailUser"
+            android:name=".datakafe.DataChart"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".DetailEmail"
+            android:name=".userActivity.RiwayatTransaksi"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <activity
+            android:name=".userActivity.StatusPembayaran"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".addData.AddTransaksi"
+            android:exported="false"
+            android:label="@string/title_activity_add_transaksi"
+            android:theme="@style/Theme.KasirCafe.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".detail.DetailUser"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity> <!-- <activity -->
+        <!-- android:name=".DetailEmail" -->
+        <!-- android:exported="false"> -->
+        <!-- <meta-data -->
+        <!-- android:name="android.app.lib_name" -->
+        <!-- android:value="" /> -->
+        <!-- </activity> -->
         <activity
             android:name=".detail.DetailMenu"
             android:exported="false">

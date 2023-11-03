@@ -1,6 +1,7 @@
 package com.kenzie.kasircafe.model
 
-class EmailModel (
+class EmailModel(
     var emailId: String? = null,
-    var email: String? = null
+    var email: String? = null,
+    var role: String?= null
 )

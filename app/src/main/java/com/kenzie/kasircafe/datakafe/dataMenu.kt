@@ -54,7 +54,7 @@ class dataMenu : AppCompatActivity() {
                         val menuData = menuSnap.getValue(MenuModel::class.java)
                         listMenu.add(menuData!!)
                     }
-                    val mAdapter = menuAdapter(listMenu)
+                    val mAdapter = menuAdapter(listMenu, false)
                     menuRecyclerView.adapter = mAdapter
 
                     mAdapter.setOnItemClickListener(object : menuAdapter.onItemClickListener{
